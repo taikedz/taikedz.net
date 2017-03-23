@@ -1,0 +1,51 @@
+#!/bin/bash
+
+## Script to confirm what still needs adding
+##
+## 	toccheck FILE [--sort] [--mkdirs]
+
+tocfile="$1"; shift
+
+if [[ -z "$tocfile" ]] ||  [[ ! -f "$tocfile" ]]; then
+	echo -e "\033[31;1mNo such file $tocfile\033[0m"
+	exit 1
+fi
+
+sorting=cat
+if [[ "$*" =~ --sort ]]; then
+	sorting=sort
+fi
+
+dirmake=:
+if [[ "$*" =~ --mkdirs ]]; then
+	dirmake="mkdir -p"
+fi
+
+filemake=:
+if [[ "$*" =~ --mkfiles ]]; then
+	filemake="touch"
+fi
+
+function gettopics {
+	echo "ABSENT items:"
+
+	while read line ; do
+		dirpath=$(dirname "$line")
+		filename=$(basename "$line")
+
+		if [[ ! -d "$dirpath" ]]; then
+			$dirmake "$dirpath"
+		fi
+
+		if [[ ! -f "$dirpath/$filename.md" ]]; then
+			echo -e "\033[34;1m$dirpath\033[0m/\033[33;1m$filename\033[0m.md"
+
+			if [[ -d "$dirpath" ]]; then
+				$filemake "$dirpath/$filename.md"
+			fi
+		fi
+
+	done < <(grep -P '^.+%%' "$tocfile" | cut -d'%' -f1) | $sorting
+}
+
+gettopics  | less -R
