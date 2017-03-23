@@ -1,0 +1,17 @@
+Intention for the table of contents
+
+mdpublish should pre-process files to look for TOC entries
+
+The entry is a path to the .md file - it allows the .md file to be located, but to add the link as .html
+
+The TOC string is removed
+
+If the MD file is not found, no link is created around the line
+
+If the MD file is found, we CD to that directory and run mdpublish on it ; and then add a link to the original line
+
+mdpublish should seek to NOT publish to the current working directory, instead it should publish to one set in preferences file
+
+mdpublish should be able to keep track of paths, forbid ".." paths, and re-create the directory structure in the target directory
+
+mdpreview should write the written list to stdout
