@@ -1,0 +1,11 @@
+Some notes
+
+Create a new page:
+
+	nikola new_page
+
+When a page is ready to be published, also need to edit conf.py : NAVIGATION_LINKS
+
+new blog post:
+
+	nikola new_post
