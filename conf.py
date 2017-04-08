@@ -125,6 +125,8 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/archive.html", "Archive"),
+        ("/blog/", "Blog"),
+        ("/about-me.html", "(me)"),
         ("/categories/index.html", "Tags"),
         ("/rss.xml", "RSS feed"),
     ),
@@ -203,8 +205,8 @@ TIMEZONE = "Europe/London"
 #
 
 POSTS = (
-#    ("posts/*.md", "posts", "post.tmpl"),
-#    ("posts/*.txt", "posts", "post.tmpl"),
+    ("posts/*.md", "blog", "post.tmpl"),
+    ("posts/*.txt", "blog", "post.tmpl"),
 )
 PAGES = (
     ("stories/*.md", "", "story.tmpl"),
