@@ -24,7 +24,9 @@ Methods of contact:
 
 Other things:
 
-* [flickr](https://www.flickr.com/photos/ducakedhare/) - I used to store photos here. After hearing about a law about photos being automatically assigned to the public domain, I stopped putting photos online anywhere if I thought them of any importance to me. On reasearching the subect to validate this present post, I found [a policy page](https://www.gov.uk/guidance/copyright-orphan-works){1} outlining the use of such "untraceable" works, and it seems better implemented (to my honest and happy surprise) than I thought it would be at the time, so I might reconsider re-igniting my activities in photography once more... happy days.
+* [flickr](https://www.flickr.com/photos/ducakedhare/) - I used to store photos here.
+	* After hearing about a law about photos being automatically assigned to the public domain, I stopped putting photos online anywhere if I thought them of any importance to me.
+	* On reasearching the subect to validate this present post, I found [a policy page](https://www.gov.uk/guidance/copyright-orphan-works){1} outlining the use of such "untraceable" works, and it seems better implemented (to my honest and happy surprise) than I thought it would be at the time, so I might reconsider re-igniting my activities in photography once more... happy days.
 
 
 
