@@ -2,3 +2,5 @@
 *.swp
 output/
 cache/
+.doit.db
+build-id
