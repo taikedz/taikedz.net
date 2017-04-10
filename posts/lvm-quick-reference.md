@@ -1,11 +1,11 @@
 <!-- 
 .. title: LVM Quick Reference
 .. slug: lvm-quick-reference
-.. date: 2017-04-10 21:50:33 UTC+01:00
-.. tags: 
-.. category: 
+.. date: 2015-05-31 21:50:33 UTC+01:00
+.. tags: lvm, command line, storage, disk management
+.. category: linux
 .. link: 
-.. description: 
+.. description: A quick reference for using LVM
 .. type: text
 -->
 
