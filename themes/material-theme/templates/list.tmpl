@@ -9,11 +9,8 @@
     </header>
     {% if items %}
     <ul class="postlist">
-    {% for text, link, count in items %}
+    {% for text, link in items %}
         <li><a href="{{ link }}"><i class="mdi-action-done"></i>{{ text }}</a>
-        {% if count %}
-            ({{ count }})
-        {% endif %}
     {% endfor %}
     </ul>
     {% else %}
