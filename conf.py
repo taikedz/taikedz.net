@@ -22,6 +22,7 @@ BLOG_TITLE = "Tai Kedz on the 'Nets"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://taikedz.net/"
+#SITE_URL = "file:///home/tai/gitlab-projects/taikedz-website/output/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://taikedz.net/"
@@ -127,6 +128,7 @@ NAVIGATION_LINKS = {
         ("/archive.html", "Archive"),
         ("/blog/", "Blog"),
         ("/about-me.html", "(me)"),
+        ("/software.html", "TaiKedz Software"),
         ("/categories/index.html", "Tags"),
         ("/rss.xml", "RSS feed"),
     ),
