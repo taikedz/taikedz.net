@@ -205,7 +205,7 @@ span.vcard img.img-circle {
 }
 
 ul > li {
-    list-style: none;
+    /*list-style: none;*/
 }
 
 .postlist a.reference > i {
