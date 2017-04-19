@@ -94,7 +94,7 @@ In this scenario however, the core developers came not from an open community fr
 
 Software Freedom advocates know they were right, but that is little consolation.
 
-## 7/ Microsoft campaigns with interesting data
+## 7/ Microsoft makes the case against open source
 
 > Death
 
@@ -103,6 +103,8 @@ Microsoft claims that proper Enterprise systems cannot run on open source, and s
 Microsoft's strength in the industry is renewed, Linux's credibility is tarnished and set back.
 
 Open-washing media neither knows nor cares about the fact that the deft retention of the core developers into the Microsoft fold is what contrbuted to the win. Game set and match.
+
+## Epilogue
 
 Richard Stallman wags his finger: yea for a time it was open, but it was never truly Free.
 
