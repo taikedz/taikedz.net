@@ -19,7 +19,7 @@ It also brings to the fore of my mind the importance of specifying what I mean b
 
 * I do not have any interest in "Android/Linux" on my laptop
 * I would rather have GNU/Linux on my phone
-* Chrome/Linux is a lobotomized pastoche of GNU/Linux
+* Chrome/Linux is a lobotomization of GNU/Linux
 * and I certainly have no interest in putting effort into "Win/Linux".
 
 Which reminds me, my Trisquel migration project is still waiting...
